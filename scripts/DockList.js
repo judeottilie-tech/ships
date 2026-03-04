@@ -28,8 +28,8 @@ document.addEventListener("click", (clickEvent) => {
       }
     }
 
-    window.alert(`${itemClicked.textContent}`)
-    
+    //window.alert(`${itemClicked.textContent}`)
+
     if (matchingHaulers.length === 0) {
       window.alert(
         `The ${itemClicked.dataset.location} dock is currently unloading nothing`,

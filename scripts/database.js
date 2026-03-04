@@ -25,7 +25,7 @@ const database = {
     {
       id: 1,
       name: "Pioneering Spirit",
-      dockId: 2,
+      dockId: 1,
     },
     {
       id: 2,

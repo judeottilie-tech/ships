@@ -1,0 +1,62 @@
+
+:root {
+    --ocean-deep:   #0a1628;
+    --ocean-mid:    #0e2a4a;
+    --ocean-light:  #1a4a7a;
+    --seafoam:      #22888f;
+    --seafoam-dim:  #00302c;
+}
+* {
+    box-sizing: border-box;
+    font-color: rgb(44, 161, 142);
+}
+
+body {
+    background-color: rgb(210, 255, 234);
+    color: rgb(44, 161, 142);
+    background: radial-gradient(circle, #a5ffe1, #8af3e5);
+}
+
+header {
+    text-align: center;
+    padding: 2.5rem 2rem 2rem;
+    border-bottom: 5px solid var(--card-border);
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0.4rem 0;
+    padding: 0.33 rem;
+    color: rgb(44, 163, 133);
+    border: 2px solid rgb(179, 255, 241);
+    border-radius: 8px;
+}
+
+h2 {
+    margin: 0.4rem 0;
+    padding: 0.33 rem;
+    color: rgb(37, 126, 118);
+    border: 2px solid rgb(179, 255, 241);
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.details {
+    width: 500px;
+    margin: auto;
+}
+
+li {
+    background-color: azure;
+    margin: 0.4rem 0;
+    padding: 0.33 rem;
+    border: 2px solid azure;
+    border-radius: 8px;
+}
